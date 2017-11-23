@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Transcribify - by Web Speech API</title>
+	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+	<link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet" />
+	<link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<link type="text/css" href="./css/app.css" rel="stylesheet" />
+</head>
+<body>
+<nav class="main-nav">
+	<ul>
+		<li><a href="color-picker-by-voice.html">Voice Color picker</a></li>
+	</ul>
+</nav>
+
+<div class="microphone">
+<h1>Transcribify</h1>
+	<button class="microphone__btn"><span class="fa fa-microphone"></span></button>
+	<em>Click and say hello!</em>
+</div>
+
+<div class="output">
+	
+</div>
+
+
+<div class="result">
+	<p><strong>You said: <em class="result--yousaid"></em></strong></p>
+	<p><strong>Transcribify said: <em class="result--botsaid"></em></strong></p>
+</div>
+
+
+<script src="./scripts/speech/apiAi.js"></script>
+<script src="./scripts/speech/speech.js"></script>
+<script src="./scripts/app.js"></script>
+<footer>
+	Demo's by <a href="https://mrfrontend.org" target="_blank">Mr Frontend</a>
+</footer>
+</body>
+</html>

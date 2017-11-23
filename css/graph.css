@@ -1,0 +1,42 @@
+body {
+	background: #fff;
+}
+h1 {
+	color: #fff;	
+}
+.choices {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.color {
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 1px solid #fff;
+	color: white;
+	text-shadow: #000;
+	margin: 1rem;
+	background: rgba(0, 0, 0, 0.5);
+}
+.microphone {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.microphone__btn {
+	font-size: 5rem;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	color: #fff;
+	background: #000;
+}

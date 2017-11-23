@@ -1,0 +1,99 @@
+body {
+	background: #000;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-size: 1rem;
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+.main-nav {
+	display: flex;
+}
+.main-nav ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  justify-content: center;
+  	align-items: center;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style: none;
+	width: 100%;
+}
+.main-nav li {
+	margin-bottom: 1rem;
+	display: inline-block;
+	margin: 0 .3rem;
+}
+.main-nav .fa {
+	font-size: 2rem;	
+}
+.main-nav a {
+	text-decoration: none;
+	display: inline-block;
+	background: #fff;
+	color: #333333;
+	padding: 0.3rem;
+	font-size: 1.2rem;
+	transition: 0.5s ease-in-out;
+}
+.main-nav a:hover {
+	background: green;
+	color: #fff;
+}
+.result {
+	font-size: 1.7rem;
+	text-align: center;
+}
+.choices {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.color {
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: 1px solid #fff;
+	color: white;
+	text-shadow: #000;
+	margin: 1rem;
+	background: rgba(0, 0, 0, 0.5);
+}
+.microphone {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.microphone__btn {
+	font-size: 8rem;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	color: #fff;
+	background: #000;
+	outline: 0;
+	margin-bottom: 3rem;
+	cursor: pointer;
+}
+.microphone__btn--error {
+	background-color: red;
+} 
+.microphone__btn--stopped {
+	background-color: orange;
+}
+.microphone__btn--gotresult {
+	background-color: green;
+}
+.microphone__btn--listening {
+	background-color: lightblue;
+}
